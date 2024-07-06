@@ -37,6 +37,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+}
+
 .btn {
   display: flex;
   gap: 10px;
@@ -70,6 +76,18 @@ body {
     transition: 0.6s;
   }
 }
+@media only screen and (max-width: 430px) {
+  .lob-in button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .get-buton button {
+    padding: 5px 2px 5px 2px;
+    font-weight: 100;
+  }
+}
 
 .navigation {
   text-align: center;
@@ -79,20 +97,32 @@ body {
     padding-right: 0.8rem;
     font-weight: 600;
     color: #077f7f;
-    text-decoration: none;
   }
 
   #alink {
     padding-left: 0.8rem;
     font-weight: 600;
     color: #212529;
-    text-decoration: none;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .navigation {
+    padding-top: 2.5rem;
+  }
+}
+
 .m-bac {
   background-image: url(./img/img.png);
   padding-top: 3rem;
 }
+
+@media only screen and (max-width: 1200px) {
+  .m-bac {
+    background-image: none;
+  }
+}
+
 .menu {
   max-width: 850px;
   margin: 0 auto;
@@ -120,6 +150,18 @@ body {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .menu h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .menu h3 {
+    font-size: 16px;
+  }
+}
+
 // svg and option
 .svg-select {
   max-width: 400px;
@@ -127,7 +169,6 @@ body {
   display: flex;
   padding-top: 3rem;
   text-align: center;
-  // align-items: center;
   justify-content: center;
   cursor: pointer;
 
@@ -137,6 +178,12 @@ body {
     font-size: 16px;
     opacity: 0.6;
     cursor: pointer;
+
+    @media only screen and (max-width: 430px) {
+      font-size: 13px;
+      width: 100%;
+      margin: auto;
+    }
   }
 }
 
@@ -147,12 +194,27 @@ body {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 430px) {
+  .para {
+    font-size: 17px;
+  }
+}
+
 .image {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   padding-top: 2.5rem;
   gap: 5rem;
   padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .image {
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    gap: 2rem;
+    padding-bottom: 0;
+  }
 }
 
 .maine {
@@ -174,12 +236,32 @@ body {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .maine h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .maine p {
+    font-size: 16px;
+    padding: 1rem;
+  }
+}
+
 // Screen Short Image
 .v-img {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
+
+.v-img img {
+  width: 100%;
+  height: auto;
+}
+
 // all Details 1 2 3 number
 .cd {
   max-width: 1400px;
@@ -236,6 +318,13 @@ body {
     }
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .cd {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 // asiddiv
 .asiddiv {
   max-width: 1400px;
@@ -268,6 +357,18 @@ body {
     }
   }
 }
+@media only screen and (max-width: 430px) {
+  .asiddiv h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .btn-img div {
+    display: none;
+  }
+}
+
 // asiddiv cad
 .card {
   max-width: 1400px;
@@ -275,6 +376,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
 }
 
 // name job and Experience Basic card
@@ -320,6 +429,9 @@ body {
     h1 {
       color: black;
       font-size: 45px;
+      @media only screen and (max-width: 430px) {
+        font-size: 25px;
+      }
     }
   }
   // cad 200K 20M+
@@ -331,6 +443,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
     padding: 2rem;
+    @media only screen and (max-width: 430px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 0;
+    }
   }
 
   .cd1 {
@@ -359,6 +476,7 @@ body {
     padding-bottom: 1rem;
   }
 }
+
 //
 .cd-again {
   max-width: 1400px;
@@ -379,6 +497,9 @@ body {
     grid-gap: 1rem;
     padding: 1rem;
     cursor: pointer;
+    @media only screen and (max-width: 430px) {
+      display: none;
+    }
   }
 
   p {
@@ -393,12 +514,28 @@ body {
     color: white;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .cd-again h1 {
+    padding-top: 18rem;
+    font-size: 28px;
+  }
+}
+
 //
 .three-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-bottom: 2rem;
   padding-top: 4rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .three-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 // all  card
 .card-card {
@@ -487,10 +624,22 @@ body {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-
+@media only screen and (max-width: 430px) {
+  .again-three {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
 .input-svg-para {
   margin-top: 5rem;
   background-image: url(./img/Screenshot\ 2024.png);
+}
+
+@media only screen and (max-width: 1200px) {
+  .input-svg-para {
+    background-image: none;
+  }
 }
 
 // heading pra svg input btn
@@ -499,6 +648,9 @@ body {
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 6rem;
+  @media only screen and (max-width: 1200px) {
+    padding-top: 0rem;
+  }
 
   // heading one
   h1 {
@@ -507,6 +659,9 @@ body {
     font-size: 65px;
     text-align: center;
     line-height: 1.4;
+    @media only screen and (max-width: 1200px) {
+      font-size: 30px;
+    }
   }
 }
 
@@ -556,15 +711,37 @@ body {
   padding-bottom: 2rem;
   padding: 2rem;
 }
+@media only screen and (max-width: 430px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .l-logo {
   display: flex;
   gap: 0.5rem;
 }
+
+@media only screen and (max-width: 430px) {
+  .l-logo p {
+    font-size: 14px;
+  }
+}
+
 .social {
   display: flex;
   gap: 1rem;
   justify-content: end;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+  .social {
+    justify-content: start;
+    padding-top: 4rem;
+    align-items: center;
+  }
 }
 
 #copy {
@@ -580,4 +757,15 @@ body {
   grid-template-columns: repeat(4, 1fr);
   padding-top: 1.5rem;
   font-size: 14px;
+}
+@media only screen and (max-width: 430px) {
+  #link-a {
+    gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #link-a a {
+    color: black;
+  }
 }

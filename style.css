@@ -34,6 +34,11 @@ body {
   font-size: 25px;
 }
 
+@media only screen and (max-width: 430px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+}
 .btn {
   display: flex;
   gap: 10px;
@@ -67,6 +72,17 @@ body {
   transition: 0.6s;
 }
 
+@media only screen and (max-width: 430px) {
+  .lob-in button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .get-buton button {
+    padding: 5px 2px 5px 2px;
+    font-weight: 100;
+  }
+}
 .navigation {
   text-align: center;
   padding-top: 5rem;
@@ -75,20 +91,28 @@ body {
   padding-right: 0.8rem;
   font-weight: 600;
   color: #077f7f;
-  text-decoration: none;
 }
 .navigation #alink {
   padding-left: 0.8rem;
   font-weight: 600;
   color: #212529;
-  text-decoration: none;
 }
 
+@media only screen and (max-width: 430px) {
+  .navigation {
+    padding-top: 2.5rem;
+  }
+}
 .m-bac {
   background-image: url(./img/img.png);
   padding-top: 3rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  .m-bac {
+    background-image: none;
+  }
+}
 .menu {
   max-width: 850px;
   margin: 0 auto;
@@ -113,6 +137,16 @@ body {
   font-weight: 800;
 }
 
+@media only screen and (max-width: 430px) {
+  .menu h1 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .menu h3 {
+    font-size: 16px;
+  }
+}
 .svg-select {
   max-width: 400px;
   margin: 0 auto;
@@ -129,6 +163,13 @@ body {
   opacity: 0.6;
   cursor: pointer;
 }
+@media only screen and (max-width: 430px) {
+  .svg-select .select-file select {
+    font-size: 13px;
+    width: 100%;
+    margin: auto;
+  }
+}
 
 .para {
   text-align: center;
@@ -137,6 +178,11 @@ body {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 430px) {
+  .para {
+    font-size: 17px;
+  }
+}
 .image {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -145,6 +191,14 @@ body {
   padding-bottom: 3rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .image {
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+}
 .maine {
   text-align: center;
   padding-top: 2rem;
@@ -162,10 +216,27 @@ body {
   font-size: 19px;
 }
 
+@media only screen and (max-width: 430px) {
+  .maine h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .maine p {
+    font-size: 16px;
+    padding: 1rem;
+  }
+}
 .v-img {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding-bottom: 1rem;
+}
+
+.v-img img {
+  width: 100%;
+  height: auto;
 }
 
 .cd {
@@ -233,6 +304,12 @@ body {
   border-radius: 100%;
 }
 
+@media only screen and (max-width: 430px) {
+  .cd {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .asiddiv {
   max-width: 1400px;
   margin: 0 auto;
@@ -260,6 +337,16 @@ body {
   transition: 1s;
 }
 
+@media only screen and (max-width: 430px) {
+  .asiddiv h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .btn-img div {
+    display: none;
+  }
+}
 .card {
   max-width: 1400px;
   margin: 0 auto;
@@ -268,6 +355,13 @@ body {
   padding-bottom: 2rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
+}
 .a-cad {
   max-width: 280px;
   margin: 0 auto;
@@ -310,6 +404,11 @@ body {
   color: black;
   font-size: 45px;
 }
+@media only screen and (max-width: 430px) {
+  .bag-card .heading h1 {
+    font-size: 25px;
+  }
+}
 .bag-card .small-card {
   max-width: 1400px;
   margin: 0 auto;
@@ -318,6 +417,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
   padding: 2rem;
+}
+@media only screen and (max-width: 430px) {
+  .bag-card .small-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
 }
 .bag-card .cd1 {
   background: #ffeff3;
@@ -362,6 +468,11 @@ body {
   padding: 1rem;
   cursor: pointer;
 }
+@media only screen and (max-width: 430px) {
+  .cd-again .p-btn {
+    display: none;
+  }
+}
 .cd-again p {
   border: 0.5px solid gray;
   padding: 10px 2.5px 10px 2.5px;
@@ -374,6 +485,12 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 430px) {
+  .cd-again h1 {
+    padding-top: 18rem;
+    font-size: 28px;
+  }
+}
 .three-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -381,6 +498,13 @@ body {
   padding-top: 4rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .three-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
 .card-card {
   max-width: 1400px;
   margin: 0 auto;
@@ -467,16 +591,33 @@ body {
   padding-top: 2rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .again-three {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
 .input-svg-para {
   margin-top: 5rem;
   background-image: url(./img/Screenshot\ 2024.png);
 }
 
+@media only screen and (max-width: 1200px) {
+  .input-svg-para {
+    background-image: none;
+  }
+}
 .position {
   max-width: 1400px;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 6rem;
+}
+@media only screen and (max-width: 1200px) {
+  .position {
+    padding-top: 0rem;
+  }
 }
 .position h1 {
   max-width: 800px;
@@ -484,6 +625,11 @@ body {
   font-size: 65px;
   text-align: center;
   line-height: 1.4;
+}
+@media only screen and (max-width: 1200px) {
+  .position h1 {
+    font-size: 30px;
+  }
 }
 
 .p-para {
@@ -529,11 +675,22 @@ body {
   padding: 2rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .l-logo {
   display: flex;
   gap: 0.5rem;
 }
 
+@media only screen and (max-width: 430px) {
+  .l-logo p {
+    font-size: 14px;
+  }
+}
 .social {
   display: flex;
   gap: 1rem;
@@ -541,6 +698,13 @@ body {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 430px) {
+  .social {
+    justify-content: start;
+    padding-top: 4rem;
+    align-items: center;
+  }
+}
 #copy {
   padding-top: 1.5rem;
   font-size: 14px;
@@ -554,4 +718,15 @@ body {
   grid-template-columns: repeat(4, 1fr);
   padding-top: 1.5rem;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 430px) {
+  #link-a {
+    gap: 0.5rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #link-a a {
+    color: black;
+  }
 }/*# sourceMappingURL=style.css.map */
