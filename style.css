@@ -1,0 +1,451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo h1 {
+  padding-left: 0.5rem;
+  font-size: 25px;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 400;
+}
+.btn .lob-in button {
+  padding: 0.9rem 1.5rem 0.9rem 1.5rem;
+  border-radius: 5px;
+  border: 1.3px solid black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn .lob-in button:hover {
+  background: #212529;
+  color: white;
+  transition: 0.5s;
+}
+.btn .get-buton button {
+  padding: 0.9rem 1.7rem 0.9rem 1.7rem;
+  background: #212529;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn .get-buton button:hover {
+  background: #077f7f;
+  border: 1px solid #077f7f;
+  transition: 0.6s;
+}
+
+.navigation {
+  text-align: center;
+  padding-top: 5rem;
+}
+.navigation #a-link {
+  padding-right: 0.8rem;
+  font-weight: 600;
+  color: #077f7f;
+  text-decoration: none;
+}
+.navigation #alink {
+  padding-left: 0.8rem;
+  font-weight: 600;
+  color: #212529;
+  text-decoration: none;
+}
+
+.m-bac {
+  background-image: url(./img/img.png);
+  padding-top: 3rem;
+}
+
+.menu {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.menu h1 {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 65px;
+  line-height: 1.2;
+  color: #0a243f;
+  text-align: center;
+}
+.menu h3 {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  font-size: 21px;
+}
+.menu span {
+  font-weight: 800;
+}
+
+.svg-select {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.svg-select .select-file select {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.para {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 2.5rem;
+  gap: 5rem;
+  padding-bottom: 3rem;
+}
+
+.maine {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.maine h1 {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 45px;
+}
+.maine p {
+  max-width: 630px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  font-size: 19px;
+}
+
+.v-img {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.cd {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.cd .fast-cd {
+  display: flex;
+}
+.cd #a svg {
+  background: #fff;
+  border-radius: 100%;
+}
+.cd #ah3pp,
+.cd #bh3pp,
+.cd #ch3pp {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+.cd #ah3pp h3,
+.cd #ah3pp h3,
+.cd #ah3pp h3,
+.cd #bh3pp h3,
+.cd #bh3pp h3,
+.cd #bh3pp h3,
+.cd #ch3pp h3,
+.cd #ch3pp h3,
+.cd #ch3pp h3 {
+  font-size: 25px;
+  line-height: 1.3;
+  opacity: 0.9;
+}
+.cd #ah3pp #pp,
+.cd #ah3pp #pp2,
+.cd #ah3pp #pp3,
+.cd #bh3pp #pp,
+.cd #bh3pp #pp2,
+.cd #bh3pp #pp3,
+.cd #ch3pp #pp,
+.cd #ch3pp #pp2,
+.cd #ch3pp #pp3 {
+  padding-top: 1rem;
+  line-height: 1.8;
+  opacity: 0.6;
+  font-size: 16px;
+}
+.cd .secend-cd {
+  display: flex;
+}
+.cd #b svg {
+  background: #fde5ff;
+  border-radius: 100%;
+}
+.cd .thard-cd {
+  display: flex;
+}
+.cd .thard-cd #c svg {
+  background: #e2efff;
+  border-radius: 100%;
+}
+
+.asiddiv {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.asiddiv h3 {
+  font-size: 24px;
+}
+.asiddiv .btn-img {
+  display: flex;
+  gap: 2rem;
+}
+.asiddiv .btn-img button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 8px;
+}
+.asiddiv .btn-img button:hover {
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+.card {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 2rem;
+}
+
+.a-cad {
+  max-width: 280px;
+  margin: 0 auto;
+}
+.a-cad .img-1 img {
+  border-radius: 5px;
+}
+.a-cad .name1 a {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+.a-cad .ssv-p {
+  display: flex;
+  padding-top: 0.5rem;
+  font-size: 14px;
+  gap: 0.5rem;
+}
+.a-cad .ssv-mg {
+  display: flex;
+  padding-top: 0.4rem;
+  gap: 0.5rem;
+}
+.a-cad .cd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bag-card {
+  background-image: url(./img/color-bg.svg);
+  height: 100vh;
+  width: 100%;
+}
+.bag-card .heading {
+  padding-top: 3.5rem;
+  text-align: center;
+  font-size: 28px;
+}
+.bag-card .small-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+.bag-card .cd1 {
+  background: #ffeff3;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.bag-card h3 {
+  padding-top: 1rem;
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.bag-card h1 {
+  font-size: 65px;
+  color: #4f0589;
+}
+.bag-card h2 {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 1;
+  padding-bottom: 1rem;
+}
+
+.cd-again {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cd-again h1 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 50px;
+}
+.cd-again .p-btn {
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 2rem;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.cd-again p {
+  border: 0.5px solid gray;
+  padding: 10px 2.5px 10px 2.5px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 600;
+}
+.cd-again #p {
+  background: black;
+  color: white;
+}
+
+.three-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.card-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 470px;
+  width: 360px;
+  border: 1px solid gray;
+  background: #ffeff3;
+  border-radius: 10px;
+}
+
+.address-card {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 1rem;
+  background: #f0f6f9;
+}
+.address-card .cd-img img {
+  height: 90px;
+  width: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}
+.address-card h2 {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.svg-c1 {
+  display: flex;
+  font-size: 15px;
+  opacity: 0.8;
+  gap: 0.4rem;
+  padding-top: 6px;
+}
+
+.message {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.ppara {
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ss-cad {
+  max-width: 280px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+.ss-cad img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  align-items: center;
+}
+.ss-cad h4 {
+  opacity: 0.9;
+}
+.ss-cad h3 {
+  font-size: 16px;
+  padding-top: 0.4rem;
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
