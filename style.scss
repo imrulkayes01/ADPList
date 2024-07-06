@@ -120,6 +120,7 @@ body {
   }
 }
 
+// svg and option
 .svg-select {
   max-width: 400px;
   margin: 0 auto;
@@ -148,7 +149,7 @@ body {
 
 .image {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(14, 1fr);
   padding-top: 2.5rem;
   gap: 5rem;
   padding-bottom: 3rem;
@@ -163,6 +164,8 @@ body {
     margin: 0 auto;
     font-size: 45px;
   }
+
+  // small para
   p {
     max-width: 630px;
     margin: 0 auto;
@@ -171,18 +174,20 @@ body {
   }
 }
 
+// Screen Short Image
 .v-img {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
-//
+// all Details 1 2 3 number
 .cd {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 2rem;
+  padding: 2rem;
   padding-top: 2rem;
   .fast-cd {
     display: flex;
@@ -192,6 +197,7 @@ body {
     border-radius: 100%;
   }
 
+  // 1 2 3 number
   #ah3pp,
   #bh3pp,
   #ch3pp {
@@ -230,15 +236,16 @@ body {
     }
   }
 }
-//
+// asiddiv
 .asiddiv {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  padding: 2rem;
 
   h3 {
     font-size: 24px;
@@ -261,15 +268,16 @@ body {
     }
   }
 }
-
+// asiddiv cad
 .card {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 2rem;
 }
 
+// name job and Experience Basic card
 .a-cad {
   max-width: 280px;
   margin: 0 auto;
@@ -298,7 +306,8 @@ body {
     // padding: 0.5rem;
   }
 }
-//
+
+// big-card cad 200K 20M+
 .bag-card {
   background-image: url(./img/color-bg.svg);
   height: 100vh;
@@ -308,15 +317,20 @@ body {
     padding-top: 3.5rem;
     text-align: center;
     font-size: 28px;
+    h1 {
+      color: black;
+      font-size: 45px;
+    }
   }
-
+  // cad 200K 20M+
   .small-card {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding-top: 4rem;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
+    padding: 2rem;
   }
 
   .cd1 {
@@ -347,7 +361,7 @@ body {
 }
 //
 .cd-again {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 
   h1 {
@@ -355,6 +369,7 @@ body {
     padding-top: 3rem;
     font-size: 50px;
   }
+  // Product button
   .p-btn {
     max-width: 950px;
     margin: 0 auto;
@@ -363,6 +378,7 @@ body {
     margin-top: 2rem;
     grid-gap: 1rem;
     padding: 1rem;
+    cursor: pointer;
   }
 
   p {
@@ -384,16 +400,18 @@ body {
   padding-bottom: 2rem;
   padding-top: 4rem;
 }
-
+// all  card
 .card-card {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   height: 470px;
   width: 360px;
   border: 1px solid gray;
   background: #ffeff3;
   border-radius: 10px;
+  cursor: pointer;
 }
+// six card img name svg message
 .address-card {
   max-width: 300px;
   margin: 0 auto;
@@ -429,6 +447,7 @@ body {
   font-size: 14px;
   opacity: 0.8;
 }
+// paragraph
 .ppara {
   max-width: 300px;
   margin: 0 auto;
@@ -437,13 +456,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+// img and para
 .ss-cad {
-  max-width: 280px;
+  max-width: 300px;
   margin: 0 auto;
   display: flex;
   padding-top: 2rem;
   gap: 1rem;
+  align-items: center;
 
   img {
     height: 50px;
@@ -467,27 +487,20 @@ body {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-.card-card {
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 470px;
-  width: 360px;
-  border: 1px solid gray;
-  background: #ffeff3;
-  border-radius: 10px;
-}
-//
+
 .input-svg-para {
   margin-top: 5rem;
   background-image: url(./img/Screenshot\ 2024.png);
 }
 
+// heading pra svg input btn
 .position {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-top: 7rem;
   padding-bottom: 6rem;
 
+  // heading one
   h1 {
     max-width: 800px;
     margin: 0 auto;
@@ -497,6 +510,7 @@ body {
   }
 }
 
+// paragraph
 .p-para {
   max-width: 600px;
   margin: 0 auto;
@@ -508,8 +522,6 @@ body {
 }
 
 .input-svg {
-  max-width: 500px;
-  margin: 0 auto;
   display: flex;
   padding-top: 2rem;
   justify-content: center;
@@ -533,15 +545,16 @@ body {
   border: none;
   border-radius: 10px;
 }
-//
 
+//footer page
 .footer {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  padding: 2rem;
 }
 .l-logo {
   display: flex;
@@ -551,6 +564,7 @@ body {
   display: flex;
   gap: 1rem;
   justify-content: end;
+  cursor: pointer;
 }
 
 #copy {
