@@ -718,6 +718,7 @@ body {
 }
 .input-svg svg {
   margin-right: 0.8rem;
+  margin-top: 0.3rem;
 }
 @media only screen and (max-width: 430px) {
   .input-svg svg {
@@ -733,7 +734,7 @@ body {
 .bbtn {
   background: #4f0589;
   color: white;
-  padding: 1rem 1.8rem 1rem 1.8rem;
+  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   border: none;
   border-radius: 10px;
 }
