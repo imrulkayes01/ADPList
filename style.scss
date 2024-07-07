@@ -730,6 +730,9 @@ body {
 
   svg {
     margin-right: 0.8rem;
+    @media only screen and (max-width: 430px) {
+      margin-top: 0.5rem;
+    }
   }
 
   input {
@@ -746,7 +749,7 @@ body {
   border: none;
   border-radius: 10px;
   @media only screen and (max-width: 430px) {
-    padding: 0.6rem 1rem 0.5rem 1rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
   }
 }
 
@@ -771,6 +774,13 @@ body {
 .l-logo {
   display: flex;
   gap: 0.5rem;
+  @media only screen and (max-width: 430px) {
+    img {
+      height: 50px;
+      width: 50px;
+      margin-top: 0.4rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 430px) {

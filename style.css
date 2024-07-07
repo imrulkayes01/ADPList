@@ -719,6 +719,11 @@ body {
 .input-svg svg {
   margin-right: 0.8rem;
 }
+@media only screen and (max-width: 430px) {
+  .input-svg svg {
+    margin-top: 0.5rem;
+  }
+}
 .input-svg input {
   font-size: 15px;
   outline: none;
@@ -734,7 +739,7 @@ body {
 }
 @media only screen and (max-width: 430px) {
   .bbtn {
-    padding: 0.6rem 1rem 0.5rem 1rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
   }
 }
 
@@ -758,6 +763,13 @@ body {
 .l-logo {
   display: flex;
   gap: 0.5rem;
+}
+@media only screen and (max-width: 430px) {
+  .l-logo img {
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4rem;
+  }
 }
 
 @media only screen and (max-width: 430px) {
