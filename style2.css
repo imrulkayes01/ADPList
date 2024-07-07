@@ -33,6 +33,11 @@ body {
   font-size: 25px;
 }
 
+@media only screen and (max-width: 430px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+}
 .btn {
   display: flex;
   gap: 10px;
@@ -66,6 +71,17 @@ body {
   transition: 0.6s;
 }
 
+@media only screen and (max-width: 430px) {
+  .lob-in button {
+    padding: 10px 16px 10px 16px !important;
+    font-weight: 100;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .get-buton button {
+    display: none;
+  }
+}
 .navigation {
   text-align: center;
   padding-top: 5rem;
@@ -83,11 +99,21 @@ body {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 430px) {
+  .navigation {
+    padding-top: 2.5rem;
+  }
+}
 .m-bac {
   background-image: url(./img/img.png);
   padding-top: 3rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  .m-bac {
+    background-image: none;
+  }
+}
 .menu {
   max-width: 850px;
   margin: 0 auto;
@@ -112,6 +138,16 @@ body {
   font-weight: 800;
 }
 
+@media only screen and (max-width: 430px) {
+  .menu h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .menu h3 {
+    font-size: 16px;
+  }
+}
 .button #btn {
   padding-top: 2rem;
   text-align: center;
