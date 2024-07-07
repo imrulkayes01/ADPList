@@ -248,6 +248,11 @@ body {
   padding: 2rem;
   padding-top: 2rem;
 }
+@media only screen and (max-width: 430px) {
+  .cd {
+    padding: 1rem !important;
+  }
+}
 .cd .fast-cd {
   display: flex;
 }
@@ -318,7 +323,7 @@ body {
   #pp,
   #pp2,
   #pp3 {
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
 }
 @media only screen and (max-width: 430px) {
@@ -694,7 +699,7 @@ body {
 }
 @media only screen and (max-width: 430px) {
   .p-para {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
