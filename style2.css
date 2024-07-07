@@ -5,9 +5,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-weight: 400;
   font-size: 1rem;
   font-weight: 400;
@@ -30,11 +28,6 @@ body {
   align-items: center;
   cursor: pointer;
 }
-@media only screen and (max-width: 430px) {
-  .logo h1 {
-    font-size: 20px;
-  }
-}
 .logo h1 {
   padding-left: 0.5rem;
   font-size: 25px;
@@ -45,18 +38,6 @@ body {
   gap: 10px;
   align-items: center;
   font-weight: 400;
-}
-@media only screen and (max-width: 430px) {
-  .lob-in button {
-    padding: 5px 2px 5px 2px;
-    font-weight: 100;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .get-buton button {
-    display: none;
-  }
 }
 .btn .lob-in button {
   padding: 0.9rem 1.5rem 0.9rem 1.5rem;
@@ -89,11 +70,6 @@ body {
   text-align: center;
   padding-top: 5rem;
 }
-@media only screen and (max-width: 430px) {
-  .navigation {
-    padding-top: 2.5rem;
-  }
-}
 .navigation #a-link {
   padding-right: 0.8rem;
   font-weight: 600;
@@ -111,11 +87,7 @@ body {
   background-image: url(./img/img.png);
   padding-top: 3rem;
 }
-@media only screen and (max-width: 1200px) {
-  .m-bac {
-    background-image: none;
-  }
-}
+
 .menu {
   max-width: 850px;
   margin: 0 auto;
@@ -136,18 +108,6 @@ body {
   text-align: center;
   font-size: 21px;
 }
-@media only screen and (max-width: 430px) {
-  .menu h1 {
-    font-size: 32px;
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .menu h3 {
-    font-size: 16px;
-  }
-}
-
 .menu span {
   font-weight: 800;
 }
@@ -174,9 +134,4 @@ body {
   padding-top: 3rem;
   font-size: 20px;
   font-weight: 500;
-} /*# sourceMappingURL=style2.css.map */
-@media only screen and (max-width: 430px) {
-  .para {
-    font-size: 18px;
-  }
-}
+}/*# sourceMappingURL=style2.css.map */

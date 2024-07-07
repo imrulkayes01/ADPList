@@ -79,7 +79,7 @@ body {
 }
 @media only screen and (max-width: 430px) {
   .get-buton button {
-    padding: 5px 2px 5px 2px;
+    padding: 14px 6px 14px 6px !important;
     font-weight: 100;
   }
 }
@@ -396,6 +396,7 @@ body {
 }
 .a-cad .img-1 img {
   border-radius: 5px;
+  width: 100%;
 }
 @media only screen and (max-width: 430px) {
   .a-cad .img-1 img {
@@ -437,7 +438,12 @@ body {
 .a-cad .cd {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
+.a-cad a {
+  color: black;
+}
+
 .bag-card {
   background-image: url(./img/color-bg.svg);
   height: 100vh;
@@ -466,7 +472,7 @@ body {
 .bag-card .small-card {
   max-width: 1400px;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
@@ -525,6 +531,7 @@ body {
   margin-top: 2rem;
   grid-gap: 1rem;
   padding: 1rem;
+  white-space: nowrap;
   cursor: pointer;
 }
 @media only screen and (max-width: 430px) {
@@ -566,7 +573,7 @@ body {
 .card-card {
   max-width: 1400px;
   margin: 0 auto;
-  height: 470px;
+  height: 500px;
   width: 360px;
   border: 1px solid gray;
   background: #ffeff3;
@@ -739,6 +746,7 @@ body {
   padding-top: 5rem;
   padding-bottom: 2rem;
   padding: 2rem;
+  align-items: center;
 }
 
 @media only screen and (max-width: 430px) {
@@ -763,6 +771,11 @@ body {
   justify-content: end;
   cursor: pointer;
 }
+@media only screen and (max-width: 430px) {
+  .social {
+    justify-content: center !important;
+  }
+}
 
 @media only screen and (max-width: 430px) {
   .social {
@@ -774,6 +787,12 @@ body {
 #copy {
   padding-top: 1.5rem;
   font-size: 14px;
+  align-items: center;
+}
+@media only screen and (max-width: 430px) {
+  #copy {
+    text-align: center !important;
+  }
 }
 
 #link-a {
@@ -784,6 +803,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   padding-top: 1.5rem;
   font-size: 14px;
+  align-items: center;
+}
+#link-a a {
+  color: black;
 }
 
 @media only screen and (max-width: 430px) {
